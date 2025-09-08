@@ -35,6 +35,11 @@
 
 ### Frontend (`/client`)
 
+**Frontend Environment Variables (`.env`):**
+
+```env
+GROQ_API_KEY=your_groq_api_key
+
 frontend/
 ├─ node_modules/
 ├─ public/
@@ -59,12 +64,6 @@ frontend/
 ├─ index.html
 ├─ package.json
 ├─ package-lock.json
-
-
-**Frontend Environment Variables (`.env`):**
-
-```env
-GROQ_API_KEY=your_groq_api_key
 
 ### Backend (`/server`)
 
